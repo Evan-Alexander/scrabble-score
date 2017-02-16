@@ -52,11 +52,13 @@ This project demonstrates building an app using PHPUnit, Silex and Twig framewor
 | quick          |     20           |  
 | brown          |     10 |  
 | fox          |     13 |
-| jumps         |     18 |
+| jumps         |     16 |
 | over          |     7 |
 | the          |     6 |
 | lazy          |     16 |                                 
 | dog          |     5 |
+
+* Note: the test plan does not include spaces, numbers other characters.
 
 * Phase 4 - Initial Silex framework with "Hello" on home page
 * Phase 5 - Twig template with a form that accepts a string and returns the result.
