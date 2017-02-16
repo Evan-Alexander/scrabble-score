@@ -15,10 +15,10 @@
         {
             $input_word = strtoupper($input_word);
             $input_letters = str_split($input_word);
+            $score_keys = array_keys($this->letter_scores);
             $score = 0;
 
             foreach ($input_letters as $input_letter) {
-                $score_keys = array_keys($this->letter_scores);
                 foreach ($score_keys as $score_key) {
                     foreach ($this->letter_scores[$score_key] as $scored_letter) {
                         if ($input_letter == $scored_letter) {
