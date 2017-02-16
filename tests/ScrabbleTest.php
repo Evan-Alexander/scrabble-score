@@ -17,7 +17,9 @@
                 'over' => 7,
                 'the' => 6,
                 'lazy' => 16,
-                'dog' => 5
+                'dog' => 5,
+                '"!@#123"' => 0,
+                '"lazy Darn doG!"' => 26
             );
 
             foreach ($tests as $input => $expected_output) {
