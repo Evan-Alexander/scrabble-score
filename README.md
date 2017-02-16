@@ -57,6 +57,8 @@ This project demonstrates building an app using PHPUnit, Silex and Twig framewor
 | the          |     6 |
 | lazy          |     16 |                                 
 | dog          |     5 |
+| "!@#123"     |     0   |
+| "lazy Darn doG!" | 26  |
 
 * Note: the test plan does not include spaces, numbers other characters.
 
